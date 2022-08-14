@@ -42,7 +42,7 @@ namespace TestProject1.Tests
             pdown.SendKeys(Keys.ArrowDown).Build().Perform();
              // Thread.Sleep(3000);
            // WebDriverWait wait1 = new WebDriverWait(_driver, TimeSpan.FromSeconds(10));
-            // _driver.Quit();
+            // deleting driver.quit
         }
 
         [Test]
